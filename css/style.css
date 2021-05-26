@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f7fa;
+  padding: 20px;
+  font-family: Montserrat;
+}
+
+img {
+  display: block;
+}
+
+.sidebar {
+  background: #1e2939;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.my-foto {
+  width: 370px;
+}
+
+.wrapper {
+  display: flex;
+  background: #ffffff;
+}
+
+.about-me-container {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.about-title {
+  text-align: center;
+}
+
+.about-title h2 {
+  line-height: 6;
+}
+.about-title p {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.about-title p:last-child {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 3;
+}
+.about-training {
+  margin-bottom: 40px;
+}
+.about-training p {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.about-training ol {
+  margin: 20px 40px 0 120px;
+  line-height: 2;
+}
+
+.contact-container {
+  padding-left: 40px;
+  padding-top: 60px;
+  padding-right: 40px;
+}
+
+.contact-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.contact-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #69717b;
+}
+
+.contact-link-type {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.tech-skills-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.tech-skills-container {
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-top: 55px;
+}
+
+.tech-skills-item {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #e9650c;
+}
+
+.tech-skills-text {
+  color: #787e88;
+}
+
+.soft-skills-title {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 52px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.soft-skills-item {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ff6b08;
+  margin-left: 20px;
+}
+
+.soft-skills-text {
+  color: #969ba2;
+}
+/*About
+===================== 
+ */
+.expirions-title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.name_job,
+.name_date,
+.name_education {
+  font-weight: 600;
+  text-align: center;
+  line-height: 3.4;
+}
+.job_pract {
+  text-align: left;
+}
+.job_pract ul {
+  list-style: none;
+}
+.job_pract li {
+  font-size: 14px;
+}
+.name_education {
+  margin-bottom: 20px;
+}
+.last_work {
+  font-size: 18px;
+}
+.last_work ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.last_work a {
+  text-decoration: none;
+  color: #787e88;
+  font-size: 20px;
+}
+.work_title {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
