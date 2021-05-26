@@ -1,1 +1,1 @@
-### Вы можете просмотреть моё резюме по ссылке ![https://nickkazban.github.io/about-myself.io/]
+### Вы можете просмотреть моё резюме по [ссылке](https://nickkazban.github.io/about-myself.io/ "Ну скорее уже посмотри что я умею)))")
