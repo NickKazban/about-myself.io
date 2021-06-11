@@ -53,6 +53,10 @@ body {
 .about-training {
   margin-bottom: 40px;
 }
+.about-training li{
+  text-align: center;
+  list-style-type: none;
+}
 .about-training p {
   text-transform: uppercase;
   font-weight: 600;
@@ -162,9 +166,13 @@ body {
 }
 .job_pract li {
   font-size: 14px;
+  text-align: center;
 }
 .name_education {
   margin-bottom: 20px;
+}
+p{
+  text-align: center;
 }
 .last_work {
   font-size: 18px;
