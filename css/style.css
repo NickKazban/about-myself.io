@@ -1,37 +1,46 @@
-* {
+html {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
 }
 
 body {
   background: #f5f7fa;
-  padding: 20px;
   font-family: Montserrat;
-}
-
-img {
-  display: block;
+  margin: 0 auto;
 }
 
 .sidebar {
+  display: flex;
   background: #1e2939;
   padding-top: 40px;
   padding-bottom: 40px;
+  max-width: 390px;
+  flex-direction: column;
+  justify-content: start;
+  height: 1746px;
 }
 
 .my-foto {
-  width: 370px;
+  width: 340px;
+  padding: 30px;
 }
 
 .wrapper {
   display: flex;
-  background: #ffffff;
+  flex-grow: 1;
 }
 
 .about-me-container {
-  padding-top: 20px;
-  padding-left: 30px;
+  padding: 20px 30px;
+  text-align: center;
+  margin: 20px 20px;
+  flex-grow: 1;
 }
 .about-title {
   text-align: center;
@@ -172,18 +181,36 @@ img {
 .last_work ul {
   text-decoration: none;
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
 .last_work a {
   text-decoration: none;
   color: #787e88;
   font-size: 20px;
 }
+.last_work a:hover {
+  text-decoration: none; /* Убираем подчеркивание */
+  color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */
+  background: #c7b7be; /* Цвет фона */
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0 10px;
+  color: #1e2939;
+}
+.last_work a:active {
+  color: #800080; /* Цвет посещенной ссылки */
+}
 .work_title {
   font-weight: 600;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+.work__list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+}
+.work__site {
+  margin: 15px auto;
 }
