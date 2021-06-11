@@ -53,7 +53,7 @@ body {
 .about-training {
   margin-bottom: 40px;
 }
-.about-training li{
+.about-training li {
   text-align: center;
   list-style-type: none;
 }
@@ -61,10 +61,6 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 20px;
-}
-.about-training ol {
-  margin: 20px 40px 0 120px;
-  line-height: 2;
 }
 
 .contact-container {
@@ -171,7 +167,7 @@ body {
 .name_education {
   margin-bottom: 20px;
 }
-p{
+p {
   text-align: center;
 }
 .last_work {
