@@ -7,30 +7,30 @@ body {
   background: #f5f7fa;
   font-family: Montserrat;
 }
-
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 700px;
+  margin: 0 auto;
+}
 .sidebar {
   display: flex;
   background: #1e2939;
   padding-top: 40px;
   padding-bottom: 40px;
-  max-width: 390px;
   flex-direction: column;
   justify-content: center;
   flex-grow: 1;
+  width: 300px;
+  height: 1300px;
 }
 
 .my-foto {
   padding: 0 40px;
 }
-
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
 .about-me-container {
-  width: 1000px;
+  height: 1000px;
+  width: 800px;
   margin-bottom: 120px;
 }
 .about-title {
